@@ -1,0 +1,122 @@
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image:url('loginbg.png');
+    background-size: cover; 
+    background-position: center;
+  }
+  
+  .login-card {
+    max-width: 300px;
+    padding: 50px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  .login-card:hover{
+    transform: scale(1.1);
+  }
+  .login-card.transparent {
+    background-color: rgba(255, 255, 255, 0.5); 
+}
+.login-card button:hover {
+    background-color: #ba0ffd;
+}
+  .login-card h2 {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .login-card input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  .login-card button {
+    width: 50%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-left: 25%;
+  }
+  
+  .login-card button:hover {
+    background-color: #0056b3;
+  }
+  
+  .error-message {
+    color: red;
+    text-align: center;
+    margin-top: 10px;
+  }
+
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .login-card {
+    max-width: 300px;
+    padding: 50px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .login-card h2 {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .login-card input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  .login-card button {
+    width: 50%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-left: 25%;
+  }
+  
+  .login-card button:hover {
+    background-color: #0056b3;
+  }
+  
+  .error-message {
+    color: red;
+    text-align: center;
+    margin-top: 10px;
+  }
+
+.link {
+  color: #007bff; 
+  cursor: pointer; 
+  text-decoration: underline; 
+}
+
+.link:hover {
+  color: #0056b3;
+}
+
